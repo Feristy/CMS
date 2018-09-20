@@ -1,0 +1,90 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {margin-bottom: 60px;}
+a, a:hover{color:#000;}
+.clear{clear:both;}
+.img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.btn-style-default, .btn-style-default:hover{
+    color: #fff;
+    background-color: #555;
+    border-color: #adadad;
+}
+
+.navbar-toggle{background-color: #000}
+.navbar-toggle .icon-bar{background-color: #fff}
+
+.container{max-width: 980px;}
+.navbar{border-bottom:1px solid #ccc;}
+.wrap{
+  padding-top: 30px;
+  padding-bottom:80px;
+}
+
+/*css content*/
+.post-title{margin-top:0;}
+.post-meta, .post-meta a{
+  display: inline-block;
+  margin-bottom:10px;
+  font-size: 0.9em;
+  font-weight:600;
+  color: #777;
+}
+.post-meta a{font-size: 1em}
+.list-meta{
+  display: inline-block;
+  margin-right: 10px;
+}
+.post-content{
+  margin-bottom: 60px;
+}
+.read-more{text-decoration: underline;}
+/*css content*/
+
+/*css sidebar*/
+.sidebar-recent-post a, .sidebar-category a{
+  display: block;
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+.sidebar-tag a{margin:1px}
+/*css sidebar*/
+
+/*css paging*/
+.paging{float:right}
+.paging a{
+  cursor: pointer;
+  margin:0 3px;
+}
+/*css paging*/
+
+/*css single post*/
+.post-tag a{
+  padding:2px 8px;
+  margin:2px;
+  font-size: 1em;
+}
+/*css single post*/
+
+/*css footer*/
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding:15px 0;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+}
+.footer-text{
+  text-align: center;
+  color:#777;
+}
+/*css footer*/
+
+@media only screen and (max-width: 767px){
+  .post-title{margin-top: 15px}
+}
